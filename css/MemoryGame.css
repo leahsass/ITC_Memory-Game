@@ -1,0 +1,81 @@
+/*body {
+    background: url('') center center no-repeat; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-orgin: center;
+    background-size: cover;
+}*/
+
+div {
+    text-align: center;
+}
+
+.welcome {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.container {
+    width: 75%;
+}
+
+.row {
+    /*background-color: black;*/
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    /*display: block;*/
+}
+
+.card {
+    background: url('') center center no-repeat; 
+    /*background-repeat: no-repeat;
+    background-position: center; 
+    background-orgin: center;*/
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#popUp {
+    z-index: 100;
+    cursor: pointer;
+    height: 150px;
+    width: 300px;
+    background-color: #000000;
+    border-radius: 5%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -150px;
+}
+
+.popUpText {
+    color: #FFFFFF;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.popUpBtn {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+}
